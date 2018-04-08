@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Musings and notes
+tagline:             ...
+url:                 http://pmsppinto.github.io
 paginate:            1
 baseurl:             ""
 
@@ -13,18 +13,18 @@ baseurl:             ""
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
-  style:            :compressed
+  style:             :compressed
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Paulo Kauscher Pinto
+  url:               https://pmsppinto.github.io
+  email:             
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/pmsppinto/pmsppinto.github.io
 
 # Gems
 gems:
