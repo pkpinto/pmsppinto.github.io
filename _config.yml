@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Musings
-tagline:             and notes
-url:                 
+title:               Musings and notes
+tagline:             ...
+url:                 http://pmsppinto.github.io
 paginate:            1
 baseurl:             "http://pmsppinto.github.io/"
 
@@ -16,13 +16,20 @@ baseurl:             "http://pmsppinto.github.io/"
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
-  style:            :compressed
+  style:             :compressed
 
 # About/contact
 author:
   name:              Paulo Kauscher Pinto
+  url:               https://pmsppinto.github.io
+  email:             
 
 # Custom vars
 version:             2.0.0
 github:
   repo:              https://github.com/pmsppinto/pmsppinto.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
